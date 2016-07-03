@@ -13,8 +13,7 @@ http://localhost:3000/api/feed/get
 
 If you wanna to write api you need to understand about request life cycle
 
-`Client request -> Server -> route -> request -> controller.
-`
+`Client request -> Server -> route -> request -> controller.`
 
 We can handle any event in controller.
 
@@ -28,13 +27,13 @@ Feed model :
 
 You can see a example in file :
 
-```app\model\FeedModel.js```
+`app\model\FeedModel.js`
 
  Third, you need to define a service
 
  You can see a example in file :
 
-```app\services\FeedService.js```
+`app\services\FeedService.js`
 
 
 
