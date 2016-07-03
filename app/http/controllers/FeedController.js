@@ -18,8 +18,7 @@ export default class FeedController extends baseController{
                 this.responseSuccess(res,true,200,"It's fine");
             })
             .catch(err=>{
-                console.log(err);
-                // this.responseErr(res,err.httpCode,err.errorCode,err.message);
+                this.responseErr(res,err.httpCode,err.errorCode,err.message);
             });
     }
 }

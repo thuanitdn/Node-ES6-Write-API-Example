@@ -5,6 +5,9 @@
 Run console : npm install
 
 Last step : npm start
+>**Try Demo**
+
+http://localhost:3000/api/feed/get
 
 > **How to write a api ?**
 
@@ -21,7 +24,7 @@ Second, you need to define a model if you implement to service relate to data.
 
 For example :
 
-Feecd model :
+Feed model :
 
 You can see a example in file :
 
@@ -34,6 +37,5 @@ You can see a example in file :
 ```app\services\FeedService.js```
 
 
-Ok ! may be fine :)
 
 
